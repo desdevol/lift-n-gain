@@ -1,0 +1,256 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+    <link rel="icon" href="https://png.icons8.com/dumbbell/ios7/1600">
+    <title>Lift & Gain</title>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" type="text/css" href="liftngain.css">
+      <script src="https://use.fontawesome.com/d08c9f262e.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Anton|Bangers|Titillium+Web:400,700,700i" rel="stylesheet">
+    </head>
+
+    <body class="black">
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript"> 
+      (function($){
+  		$(function(){
+			$('.button-collapse').sideNav();}); // end of document ready
+	  })(jQuery); // end of jQuery name space
+      </script>
+      <script type="text/javascript">$(".dropdown-button").dropdown();</script>
+
+	<!--Navbar-->
+    <ul id="dropdown1" class="dropdown-content red darken-4 z-depth-3">
+    	<li><a href="chest.html" class="navitem white-text" data-click="true">Chest</a></li>
+    	<li><a href="back.html" class="navitem white-text" data-click="true">Back</a></li>
+    	<li><a href="shoulder.html" class="navitem white-text" data-click="true">Shoulders</a></li>
+    	<li><a href="upperarm.html" class="navitem white-text" data-click="true">Upper Arm</a></li>
+    	<li><a href="forearm.html" class="navitem white-text" data-click="true">Forearms</a></li>
+    	<li><a href="abs.html" class="navitem white-text" data-click="true">Abs</a></li>
+    	<li class="divider"></li>
+    	<li><a href="glutes.html" class="navitem white-text" data-click="true">Glutes</a></li>
+  		<li><a href="quadriceps.html" class="navitem white-text" data-click="true">Quadriceps</a></li>
+  		<li><a href="calves.html" class="navitem white-text" data-click="true">Calves</a></li>
+  	</ul>
+
+<div class="navbar-fixed #b71c1c red darken-4 z-depth-2">
+    <nav>
+	    <div class="nav-wrapper #b71c1c red darken-4 z-depth-2">
+	      <a href="index.html" class="brand-logo center" style="font-family: 'Bangers', cursive;"><img src="https://png.icons8.com/dumbbell/ios7/1600" width="60" style="vertical-align: top;">&nbsp;LIFT & GAIN</a>
+	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text">menu</i></a>
+	      <ul id="nav-mobile" class="right hide-on-med-and-down">
+	        <li><a href="#!" class="navitem dropdown-button" data-activates="dropdown1">Workout<i class="material-icons right">arrow_drop_down</i></a></li>
+	        <li><a href="meals.html" class="navitem">Gain Meals</a></li>
+	        <li><a href="gymgear.html" class="navitem">Gym Gear</a></li>
+	      </ul>
+	      <!--Sidenav-->
+	      <ul class="side-nav red darken-4" id="mobile-demo">
+	    		<li><a href="index.html"><p style="font-family: 'Bangers', cursive; font-size: 30px;" class="center white-text">LIFT & GAIN</p></a></li>
+	    		<li><div class="divider"></div></li>
+	    		<li class="no-padding">
+			        <ul class="collapsible collapsible-accordion">
+			          <li>
+			            <a class="collapsible-header waves-effect white-text" style="font-family: 'Titillium Web', sans-serif;">Workout<i class="fa fa-caret-down white-text" aria-hidden="true"></i></a>
+			            <div class="collapsible-body">
+			              <ul class="red darken-2">
+			                <li><a href="chest.html" class="sidenavitem white-text" data-click="true">Chest</a></li>
+			                <li><a href="back.html" class="sidenavitem white-text" data-click="true">Back</a></li>
+			                <li><a href="shoulder.html" class="sidenavitem white-text" data-click="true">Shoulder</a></li>
+			                <li><a href="upperarm.html" class="sidenavitem white-text" data-click="true">Upper Arm</a></li>
+			                <li><a href="forearm.html" class="sidenavitem white-text" data-click="true">Forearms</a></li>
+			                <li><a href="abs.html" class="sidenavitem white-text" data-click="true">Abs</a></li>
+			                <li><div class="divider"></div></li>
+			                <li><a href="glutes.html" class="sidenavitem white-text" data-click="true">Glutes</a></li>
+			                <li><a href="quadriceps.html" class="sidenavitem white-text" data-click="true">Quadriceps</a></li>
+			                <li><a href="calves.html" class="sidenavitem white-text" data-click="true">Calves</a></li>
+			              </ul>
+			            </div>
+			          </li>
+			        </ul>
+			    </li>
+	    		<li><a class="waves-effect white-text" href="meals.html" style="font-family: 'Titillium Web', sans-serif;">Gain Meals</a></li>
+	    		<li><a class="waves-effect white-text" href="gymgear.html" style="font-family: 'Titillium Web', sans-serif;">Gym Gears</a></li>
+	  	  </ul>
+	  	</div> 
+  	</nav>
+</div>
+ 
+
+<!--The Slideshow-->
+<div class="slider hide-on-med-and-down">
+    <ul class="slides">
+      <li>
+        <img src="carouselimg/1.jpg" class="responsive-img"> 
+      <li>
+        <img src="carouselimg/2.jpg" class="responsive-img"> 
+      <li>
+        <img src="carouselimg/3.jpg" class="responsive-img"> 
+      </li>
+      <li>
+        <img src="carouselimg/4.jpg" class="responsive-img"> 
+      </li>
+      <li>
+        <img src="carouselimg/5.jpg" class="responsive-img"> 
+      </li>
+      <li>
+        <img src="carouselimg/6.jpg" class="responsive-img"> 
+      </li>
+    </ul>
+  </div>
+
+<div class="carousel carousel-slider hide-on-large-only">
+    <a class="carousel-item" href="#one!"><img src="carouselimg/1.jpg" style="height: 200px;"></a>
+    <a class="carousel-item" href="#two!"><img src="carouselimg/2.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="carouselimg/3.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="carouselimg/4.jpg"></a>
+    <a class="carousel-item" href="#five!"><img src="carouselimg/5.jpg"></a>
+    <a class="carousel-item" href="#six!"><img src="carouselimg/6.jpg"></a>
+  </div>
+
+<!--Daily motivational video-->
+<div class="row">
+      <div class="col s12 m6 l6 offset-l3 offset-m3">
+        <div class="card-panel red darken-4 z-depth-5">
+        	<p class="flow-text center white-text" style="font-family: 'Titillium Web', sans-serif;">DAILY MOTIVATION</p>
+        	<video class="responsive-video" controls>
+    			<source src="Rocky.mp4" type="video/mp4">
+			</video>
+        </div>
+      </div>
+    </div>
+
+<!--Workout-->
+<div class="section hide-on-small-only">
+    <div class="row container">
+    	<a href="workout.html">
+    	<blockquote>
+      	<h2 class="header white-text" style="font-family: 'Anton', sans-serif;">Workout</h2>
+      	<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">Work ethic eliminates fear.</p>
+      	</blockquote>
+      	</a>
+    </div>
+</div>
+<div class="parallax-container hide-on-small-only">
+      <a href="workout.html"><div class="parallax"><img src="workout.jpg"></div></a>
+</div>
+
+<!--Meals-->
+<div class="section hide-on-small-only">
+    <div class="row container">
+    	<a href="meals.html">
+    	<blockquote>
+      	<h2 class="header white-text" style="font-family: 'Anton', sans-serif;">Meals</h2>
+      	<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">Get the most gains nutritionally.</p>
+      	</blockquote>
+      	</a>
+    </div>
+</div>
+<div class="parallax-container hide-on-small-only">
+      <a href="meals.html"><div class="parallax"><img src="meals.jpg"></div></a>
+</div>
+
+<!--Gym gear-->
+<div class="section hide-on-small-only">
+    <div class="row container">
+    	<a href="gymgear.html">
+    	<blockquote>
+      	<h2 class="header white-text" style="font-family: 'Anton', sans-serif;">Gym Gears</h2>
+      	<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">Step up your game by working with the best equipment.</p>
+      	</blockquote>
+      	</a>
+    </div>
+</div>
+<div class="parallax-container hide-on-small-only">
+      <a href="gymgear.html"><div class="parallax"><img src="gymgear.jpg"></div></a>
+</div>
+
+<!--Mobile part-->
+<div class="row hide-on-med-and-up">
+        <div class="col s12 m4 black">
+          <div class="icon-block">
+          <a href="workout.html">
+            <h2 class="center red-text text-darken-4"><i class="fa fa-heartbeat" aria-hidden="true"></i></h2>
+          </a>
+            <h5 class="center white-text" style="font-family: 'Anton', sans-serif;">Workout</h5>
+
+            <p class="light white-text center" style="font-family: 'Titillium Web', sans-serif;">Work ethic eliminates fear.</p>
+          </div>       
+        </div>
+
+        <div class="col s12 m4 black">
+          <div class="icon-block">
+          <a href="meals.html">
+            <h2 class="center red-text text-darken-4"><i class="fa fa-cutlery" aria-hidden="true"></i></h2>
+          </a>
+            <h5 class="center white-text" style="font-family: 'Titillium Web', sans-serif;">Meals</h5>
+
+            <p class="light white-text center" style="font-family: 'Titillium Web', sans-serif;">Get the most gains nutritionally.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4 black">
+          <div class="icon-block">
+          <a href="gymgear.html">
+            <h2 class="center red-text text-darken-4"><i class="fa fa-wrench" aria-hidden="true"></i></h2>
+          </a>
+            <h5 class="center white-text" style="font-family: 'Titillium Web', sans-serif;">Gym Gears</h5>
+
+            <p class="light white-text center" style="font-family: 'Titillium Web', sans-serif;">Step up your game with the best tool.</p>
+          </div>
+        </div>
+ </div>
+
+<!--Footer-->
+<footer class="page-footer red darken-4" style="font-family:'Titillium Web', sans-serif;">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Collaboration</h5>
+                <a href="https://www.kettler.com.sg/"><img class="responsive-img hoverable" src="https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Kettler_Logo.svg/1200px-Kettler_Logo.svg.png" width="100"></a>&nbsp;
+                <a href="https://www.nike.com"><img class="responsive-img hoverable" src="http://www.pngmart.com/files/4/Nike-Logo-PNG-Image.png" width="100"></a>&nbsp;
+                <a href="https://musclepharm.com/"><img class="responsive-img hoverable" src="https://cdn.shopify.com/s/files/1/1618/2767/files/mp-logo-mobile_280x@2x.png?v=1542063105" width="100"></a>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Social Media</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook-square hoverable" aria-hidden="true"></i>&nbsp;Facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-instagram hoverable" aria-hidden="true"></i>&nbsp;Instagram</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter-square hoverable" aria-hidden="true"></i>&nbsp;Twitter</a></li>
+                  <li>Call us: +60 14-9854126</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            Copyright © 2017 Lee Yong Wei
+            <a class="#d32f2f red-text text-darken-1 right" href="http://materializecss.com">Designed with Materialize.css</a>
+            </div>
+          </div>
+        </footer>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+      $('.slider').slider({
+      	interval:4000,
+      	height:650,
+      });
+    });
+    $('.carousel.carousel-slider').carousel({
+    	fullWidth: true,
+    	indicators:true,
+    });
+    $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+</script>
+    </body>
+  </html>

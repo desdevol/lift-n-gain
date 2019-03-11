@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+    <link rel="icon" href="https://png.icons8.com/dumbbell/ios7/1600">
+    <title>Workout</title>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" type="text/css" href="liftngain.css">
+      <script src="https://use.fontawesome.com/d08c9f262e.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Anton|Bangers|Titillium+Web:400,700,700i" rel="stylesheet">
+    </head>
+
+    <body class="black">
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript"> 
+      (function($){
+  		$(function(){
+			$('.button-collapse').sideNav();}); // end of document ready
+	  })(jQuery); // end of jQuery name space
+      </script>
+      <script type="text/javascript">$(".dropdown-button").dropdown();</script>
+
+	<!--Navbar-->
+    <ul id="dropdown1" class="dropdown-content red darken-4 z-depth-3">
+    	<li><a href="#chest" class="navitem white-text" data-click="true">Chest</a></li>
+    	<li><a href="#back" class="navitem white-text" data-click="true">Back</a></li>
+    	<li><a href="#shoulder" class="navitem white-text" data-click="true">Shoulders</a></li>
+    	<li><a href="#upperarm" class="navitem white-text" data-click="true">Upper Arm</a></li>
+    	<li><a href="#forearm" class="navitem white-text" data-click="true">Forearms</a></li>
+    	<li><a href="#abs" class="navitem white-text" data-click="true">Abs</a></li>
+    	<li class="divider"></li>
+    	<li><a href="#glutes" class="navitem white-text" data-click="true">Glutes</a></li>
+  		<li><a href="#quadriceps" class="navitem white-text" data-click="true">Quadriceps</a></li>
+  		<li><a href="#calves" class="navitem white-text" data-click="true">Calves</a></li>
+  	</ul>
+
+<div class="navbar-fixed #b71c1c red darken-4 z-depth-2">
+    <nav>
+	    <div class="nav-wrapper #b71c1c red darken-4 z-depth-2">
+	      <a href="index.html" class="brand-logo center" style="font-family: 'Bangers', cursive;"><img src="https://png.icons8.com/dumbbell/ios7/1600" width="60" style="vertical-align: top;">&nbsp;LIFT & GAIN</a>
+	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text">menu</i></a>
+	      <ul id="nav-mobile" class="right hide-on-med-and-down">
+	        <li><a href="#!" class="navitem dropdown-button" data-activates="dropdown1">Workout<i class="material-icons right">arrow_drop_down</i></a></li>
+	        <li><a href="meals.html" class="navitem">Gain Meals</a></li>
+	        <li><a href="gymgear.html" class="navitem">Gym Gear</a></li>
+	      </ul>
+	      <!--Sidenav-->
+	      <ul class="side-nav red darken-4" id="mobile-demo">
+	    		<li><a href="index.html"><p style="font-family: 'Bangers', cursive; font-size: 30px;" class="center white-text">LIFT & GAIN</p></a></li>
+	    		<li><div class="divider"></div></li>
+	    		<li class="no-padding">
+			        <ul class="collapsible collapsible-accordion">
+			          <li>
+			            <a class="collapsible-header waves-effect white-text" style="font-family: 'Titillium Web', sans-serif;">Workout<i class="fa fa-caret-down white-text" aria-hidden="true"></i></a>
+			            <div class="collapsible-body">
+			              <ul class="red darken-2">
+			                <li><a href="#chest" class="sidenavitem white-text" data-click="true">Chest</a></li>
+			                <li><a href="#back" class="sidenavitem white-text" data-click="true">Back</a></li>
+			                <li><a href="#shoulder" class="sidenavitem white-text" data-click="true">Shoulder</a></li>
+			                <li><a href="#upperarm" class="sidenavitem white-text" data-click="true">Upper Arm</a></li>
+			                <li><a href="#forearm" class="sidenavitem white-text" data-click="true">Forearms</a></li>
+			                <li><a href="#abs" class="sidenavitem white-text" data-click="true">Abs</a></li>
+			                <li><div class="divider"></div></li>
+			                <li><a href="#glutes" class="sidenavitem white-text" data-click="true">Glutes</a></li>
+			                <li><a href="#quadriceps" class="sidenavitem white-text" data-click="true">Quadriceps</a></li>
+			                <li><a href="#calves" class="sidenavitem white-text" data-click="true">Calves</a></li>
+			              </ul>
+			            </div>
+			          </li>
+			        </ul>
+			    </li>
+	    		<li><a class="waves-effect white-text" href="meals.html" style="font-family: 'Titillium Web', sans-serif;">Gain Meals</a></li>
+	    		<li><a class="waves-effect white-text" href="gymgear.html" style="font-family: 'Titillium Web', sans-serif;">Gym Gears</a></li>
+	  	  </ul>
+	  	</div> 
+  	</nav>
+</div>
+
+<!--Workout Collapsible-->
+
+	<ul class="collapsible" data-collapsible="expandable">
+		<li>
+	      <div class="collapsible-header red darken-4 white-text" id="chest" style="font-family:'Titillium Web', sans-serif;">Chest</div>
+	      <div class="collapsible-body #212121 grey darken-4">
+	      	<span>
+	      		<img src="workoutpic/chest1.jpg" class="responsive-img center hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Barbell Bench Press</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">You can generate the most power with barbell lifts, so the standard barbell bench allows you to move the most weight. It's also an easier lift to control than pressing with heavy dumbbells.</p>
+	      		<img src="workoutpic/chest2.jpg" class="responsive-img center hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Low-Incline Barbell Bench Press</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">Go for a less-steep incline to hit the upper pecs without as much stress on the delts. If you're really looking to build that shelf of an upper chest, EMG results have suggested that bringing your grip in a bit closer may hammer upper-chest fibers significantly more.</p>
+	      		<img src="workoutpic/chest3.jpg" class="responsive-img center hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Dips For Chest</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">Make sure you're doing dips that emphasize the pecs: Put your feet up behind you, lean forward as far as possible, and allow your elbows to flare out as you dip. Chest dips are a great spotter-free alternative to the decline press.</p>
+	      		<img src="workoutpic/chest4.jpg" class="responsive-img center hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Pec-Deck Machine</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">This exercise is a great movement teacher, and you can go for a great pump without having to balance any weights. EMG data shows that activation of the pectoralis major and anterior delt are statistically similar between the pec deck and bench press, which means that even though you'll probably be working in different rep ranges for each exercise, you'll get great chest activation from this machine.</p>
+	      		<img src="workoutpic/chest5.jpg" class="responsive-img center hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Push-ups</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">If you are new at this exercise and do not have the strength to perform it, you can either bend your legs at the knees to take off resistance or perform the exercise against the wall instead of the floor. For the most advanced lifters, you can place your feet at a high surface such as a bench in order to increase the resistance and to target the upper chest more.</p>
+	      	</span>
+	      </div>
+	    </li>
+	    <li>
+	      <div class="collapsible-header red darken-4 white-text" id="back" style="font-family:'Titillium Web', sans-serif;">Back</div>
+	      <div class="collapsible-body #212121 grey darken-4">
+	      	<span>
+	      		<img src="workoutpic/back1.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Barbell Deadlift</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">This is technically more than a back exercise—it hits the entire posterior chain from your calves to your upper traps—but it's the absolute best for overall backside development. Technique is uber-important with the deadlift, but once you nail it, you can progress to lifting monster weights that will recruit maximum muscle, release muscle-building hormones, and help you get big.</p>
+	      		<img src="workoutpic/back2.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Wide-Grip Pull-Up</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">It's always a good idea to have an overhead pulling movement in your back routine, and the pull-up is one of the best. Wide-grip pull-ups are excellent for putting emphasis on the upper lats. A closer grip may allow for a longer range of motion, but it may be possible to load the wide-grip pull-up to a greater degree because of an optimized starting joint position. The biggest challenge here for most trainers is training to failure in the right rep range for growth, which is 8-12.</p>
+	      		<img src="workoutpic/back3.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Standing T-Bar Row</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">These aren't squats, so keep your legs locked in a bent angle throughout. You also typically have a choice of hand positions and width. A wider grip will put more emphasis on the lats, while a neutral grip will better target the middle back (rhomboids, teres, and traps). This exercise is probably one of the easier rows to spot.</p>
+	      		<img src="workoutpic/back4.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Dumbbell Shrug</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">The exercise primarily targets the trapezius muscle of the back. The barbell shrug is an isolation movement, meaning it utilizes just one joint. Shrugs should be part of a back workout that also includes compound movements such as lat pulldowns, pullups and rows.</p>
+	      	</span>
+	      </div>
+	    </li>
+	    <li>
+	      <div class="collapsible-header red darken-4 white-text" id="shoulder" style="font-family:'Titillium Web', sans-serif;">Shoulder</div>
+	      <div class="collapsible-body #212121 grey darken-4">
+	      	<span>
+	      		<img src="workoutpic/shoulder1.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Dumbbell Lateral Raise</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">This is a great single-joint movement for the middle delts, but they're tougher to master than they seem. Beginners often have trouble learning how to lead with their elbows. They also tend to rest at the bottom of the motion, when in fact it's better to stop the downward arc when their arms are about 30 degrees out to their sides.</p>
+	      		<img src="workoutpic/shoulder2.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Arnold Press</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">Start with the dumbbells in front of your shoulders with your palms facing you. Press the weights overhead while simultaneously rotating your wrists, so that, in the top position, your palms face forward. Rotate your wrists in the opposite direction when lowering the weights.</p>
+	      		<img src="workoutpic/shoulder3.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Prone Reverse Fly</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">Skip the machines. A recent study showed that the EMG activity for the posterior deltoid and infraspinaturs was greatest when performing a reverse fly with a neutral hand position (palms facing each other) compared to a pronated grip (palms down). While you might be tempted to hop onto the seated reverse fly machine, you're better off using free weights and a bench to perform the prone reverse dumbbell fly. Not only do free weights allow you to get in the optimal hand position, the movement also better isolates the rear delts and recruits more stabilizers than the machines.</p>
+	      	</span>
+	      </div>
+	    </li>
+	    <li>
+	      <div class="collapsible-header red darken-4 white-text" id="upperarm" style="font-family:'Titillium Web', sans-serif;">Upper Arm</div>
+	      <div class="collapsible-body #212121 grey darken-4">
+	      	<span>
+	      		<h3 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Biceps</h3>
+	      		<img src="workoutpic/biceps1.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Incline Inner-Biceps Curl</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">The biceps brachii actually consists of two portions or "heads," with differing attachment points. The "long" head actually attaches above the shoulder joint, which means that the position of the upper arm relative to the body can determine how much each head of the biceps helps during a curl. This exercise gets your humerus behind your body, stretching the long head to the max. The more horizontal the bench, the more the long head will be stretched.</p>
+	      		<img src="workoutpic/biceps2.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">EZ Bar Curl</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">Many find the EZ bar significantly more comfortable than a straight bar. It shifts a little bit of the load from the biceps brachii to your other elbow flexors, so an argument could be made that the EZ bar curl is the best all-around biceps builder.</p>
+	      		<img src="workoutpic/biceps3.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Hammer Curl</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">The "hammer" or neutral wrist position will typically be our strongest curl. This is because all of our elbow flexors are actively involved; the brachialis is worked the hardest. I would recommend doing this movement like a concentration curl or on a preacher bench. This should minimize cheating and maximize recruitment.</p>
+
+	      		<h3 class="white-text" style="font-family: 'Titillium Web',sans-serif;">Triceps</h3>
+	      		<img src="workoutpic/triceps1.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Skullcrusher</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;"> While this move—also known as a French press or lying triceps extension—doesn't necessarily isolate the lateral or long-triceps head more than the other exercises, the arm position perpendicular to your body combines the activity of the two heads to catapult this movement to the top of the list.</p>
+	      		<img src="workoutpic/triceps2.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Cable push-downs</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">Cable push-downs actually activated the lateral head of the triceps greater than skullcrushers, kick-backs, or any other major triceps exercise.2 If you're not doing this movement already, it's a fairly good single-joint lateral-head movement as long as you don't let your elbows drift from your sides. </p>
+	      		<img src="workoutpic/triceps3.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Seated Overhead Dumbbell Extension</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">Once your arms go overhead, the long head becomes the target, so it's always a good idea to include some kind of arms-overhead exercise in your triceps routine. This is but one of many good options, and it's probably the easiest to get into the start position, especially when seated. If you've got a partner, it's even easier if he hands you the weight. (You can also do a few assisted reps.) Once again, minimize elbow flare on this movement.</p>
+	      	</span>
+	      </div>
+	    </li>
+	    <li>
+	      <div class="collapsible-header red darken-4 white-text" id="forearm" style="font-family:'Titillium Web', sans-serif;">Forearm</div>
+	      <div class="collapsible-body #212121 grey darken-4">
+	      	<span>
+	      		<img src="workoutpic/forearm1.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Reverse Curl</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">Dumbbell or barbell, up to you. Grasp the bar overhand at whatever width is comfortable. Keeping your upper arms against your sides, curl the bar.</p>
+	      		<img src="workoutpic/forearm2.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Wrist Curl</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">Hold a dumbbell in each hand and sit on a bench, box, or chair. Rest your forearms on your thighs and allow your wrists to bend back over your knees so the weights hang down. Curl the dumbbells up by just flexing your wrists.</p>
+	      </div>
+	    </li>
+	    <li>
+	      <div class="collapsible-header red darken-4 white-text" id="abs" style="font-family:'Titillium Web', sans-serif;">Abs</div>
+	      <div class="collapsible-body #212121 grey darken-4">
+	      	<span>
+	      		<img src="workoutpic/abs1.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Russian Twists</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">Loaded Russian twists, performed for 10 reps per side. Hold a weight with both arms for resistance. Twist your torso to the right side until your arms are parallel with the floor. Move back to the starting position and then move to the opposite side.</p>
+	      		<img src="workoutpic/abs2.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Hanging Leg Raises</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">The hanging leg raise is another great ab exercise. Hanging from a chin-up bar, raise your legs until your legs and torso from a 90-degree angle. I usually do this exercise with a little twist, rotating my legs side to side. More work, greater reward.</p>
+	      		<img src="workoutpic/abs3.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">The Plank</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">The plank helps develop overall core strength and stability. Hold yourself up using both elbows in the prone position and hold the position for as long as you possibly can. Also, incorporate the side plank into your ab routine, which is basically the same as the normal plank, only you lean on one elbow at the time and switch sides to hit both your left and right obliques.</p>
+	      		<img src="workoutpic/abs4.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Bicycle Crunch</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">With this movement, you’re targeting all three key areas at the same time. It combines a regular crunch, the side-to-side motion that targets the obliques, and the reverse crunch that hits the lower abs.</p>
+	      		<img src="workoutpic/abs5.jpg" class="responsive-img hoverable" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Cross Crunch</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">It’s a simple exercise, and you’re safe and supported on the ground. With the legs coming off the floor, you’re getting your lower abs. And because you’re coming at an angle, you’re hitting your obliques and your rectus abdominis, too.</p>
+	      	</span>
+	      </div>
+	    </li>
+	    <li>
+	      <div class="collapsible-header red darken-4 white-text" id="glutes" style="font-family:'Titillium Web', sans-serif;">Glutes</div>
+	      <div class="collapsible-body #212121 grey darken-4">
+	      	<span>
+	      		<img src="workoutpic/glutes1.jpg" class="responsive-img" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Squats</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">Squats are the king of lower-body exercises. Why? Well, they work pretty much every muscle in your legs while strengthening your core, hips, and lower back. Just make sure you get the most out of the movement. With a back squat, stopping at parallel or just barely below puts most of the emphasis on your quads, leaving your glutes less engaged.</p>
+	      		<img src="workoutpic/glutes2.jpg" class="responsive-img" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Hip Thrust</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">The Hip Thrust is a glute exercise designed to improve your strength, speed and power by teaching optimal hip extension. It's all about the power in your glutes, which are among the most powerful muscles in your body.</p>
+	      		<img src="workoutpic/glutes3.jpg" class="responsive-img" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Walking Lunges</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">Keep your upper body straight, with your shoulders back and relaxed and chin up (pick a point to stare at in front of you so you don't keep looking down). Always engage your core. Step forward with one leg, lowering your hips until both knees are bent at about a 90-degree angle.</p>
+	      	</span>
+	      </div>
+	    </li>
+	    <li>
+	      <div class="collapsible-header red darken-4 white-text active" id="quadriceps" style="font-family:'Titillium Web', sans-serif;">Quadriceps</div>
+	      <div class="collapsible-body #212121 grey darken-4">
+	      	<span>
+	      		<img src="workoutpic/quads1.jpg" class="responsive-img" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Bulgarian Split Squat</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">This one is deceptively difficult, partly because of balance and partly because you're training one side at a time. The Bulgarian split squat is essentially a split squat, but your rear leg is elevated, which forces the front leg to pick up more of the workload. Try it on a Smith machine if you find it difficult to balance the weight.</p>
+	      		<img src="workoutpic/quads2.jpg" class="responsive-img" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Leg Press</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">the leg press allows for a variety of foot positions, effectively enabling you to target weaknesses such as the teardrops or outer thighs. Be careful not to lower the sled too far, though; doing so will lift your glutes up off the butt pad and cause your lower spine to curl. A rounded back puts you at risk for an injury.</p>
+	      		<img src="workoutpic/quads3.jpg" class="responsive-img" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Squat</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">Squat doesn't only build glutes, squat is the king because they're simply the most challenging leg movement you can do, especially when loaded appropriately. They work all the lower-body musculature (we're counting glutes), and have been shown to spike muscle-building hormone release.</p>
+	      	</span>
+	      </div>
+	    </li>
+	    <li>
+	      <div class="collapsible-header red darken-4 white-text" id="calves" style="font-family:'Titillium Web', sans-serif;">Calves</div>
+	      <div class="collapsible-body #212121 grey darken-4">
+	      	<span>
+	      		<img src="workoutpic/calves1.jpg" class="responsive-img" width="600">
+	      		<h5 class="white-text" style="font-family: 'Titillium Web', sans-serif;">Calf Raise</h5>
+	      		<p class="white-text" style="font-family: 'Titillium Web', sans-serif;">The standing calf raise is a staple of basically all calf workouts because it’s simple and effective. Could be done with barbell, machines, dumbbell or even body weights.</p>
+	      </div>
+	    </li>
+	</ul>
+
+<!--Footer-->
+<footer class="page-footer red darken-4" style="font-family:'Titillium Web', sans-serif;">
+	<div class="container">
+		<div class="row">
+			<div class="col l6 s12">
+				<h5 class="white-text">Collaboration</h5>
+				<a href="https://www.kettler.com.sg/"><img class="responsive-img hoverable" src="https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Kettler_Logo.svg/1200px-Kettler_Logo.svg.png" width="100"></a>&nbsp;
+				<a href="https://www.nike.com"><img class="responsive-img hoverable" src="http://www.pngmart.com/files/4/Nike-Logo-PNG-Image.png" width="100"></a>&nbsp;
+				<a href="https://musclepharm.com/"><img class="responsive-img hoverable" src="https://cdn.shopify.com/s/files/1/1618/2767/files/mp-logo-mobile_280x@2x.png?v=1542063105" width="100"></a>
+			</div>
+			<div class="col l4 offset-l2 s12">
+				<h5 class="white-text">Social Media</h5>
+				<ul>
+					<li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook-square hoverable" aria-hidden="true"></i>&nbsp;Facebook</a></li>
+					<li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-instagram hoverable" aria-hidden="true"></i>&nbsp;Instagram</a></li>
+					<li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter-square hoverable" aria-hidden="true"></i>&nbsp;Twitter</a></li>
+					<li>Call us: +60 14-9854126</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer-copyright">
+		<div class="container">
+		Copyright © 2017 Lee Yong Wei
+		<a class="#d32f2f red-text text-darken-1 right" href="http://materializecss.com">Designed with Materialize.css</a>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+	$('[data-click]').on('click', function (e) {
+    $( $(this).attr('href') ).trigger('click');
+});
+</script>
+	
+	</body>
+</html>
